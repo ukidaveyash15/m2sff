@@ -1,0 +1,1074 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+ no time accumulated
+
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+  0.00      0.00     0.00     1053     0.00     0.00  __xcalloc
+  0.00      0.00     0.00      208     0.00     0.00  list_count
+  0.00      0.00     0.00      185     0.00     0.00  list_get
+  0.00      0.00     0.00      140     0.00     0.00  __xstrdup
+  0.00      0.00     0.00       90     0.00     0.00  list_add
+  0.00      0.00     0.00       84     0.00     0.00  esim_register_event_with_name
+  0.00      0.00     0.00       27     0.00     0.00  linked_list_head
+  0.00      0.00     0.00       25     0.00     0.00  linked_list_is_end
+  0.00      0.00     0.00       13     0.00     0.00  list_create
+  0.00      0.00     0.00       12     0.00     0.00  list_free
+  0.00      0.00     0.00       11     0.00     0.00  class_init
+  0.00      0.00     0.00       11     0.00     0.00  class_register
+  0.00      0.00     0.00       10     0.00     0.00  hash_table_get
+  0.00      0.00     0.00        9     0.00     0.00  linked_list_create
+  0.00      0.00     0.00        9     0.00     0.00  linked_list_free
+  0.00      0.00     0.00        7     0.00     0.00  ObjectDestroy
+  0.00      0.00     0.00        7     0.00     0.00  class_delete
+  0.00      0.00     0.00        7     0.00     0.00  class_new
+  0.00      0.00     0.00        7     0.00     0.00  m2s_timer_create
+  0.00      0.00     0.00        6     0.00     0.00  EmuCreate
+  0.00      0.00     0.00        6     0.00     0.00  EmuDestroy
+  0.00      0.00     0.00        6     0.00     0.00  linked_list_get
+  0.00      0.00     0.00        6     0.00     0.00  m2s_timer_free
+  0.00      0.00     0.00        6     0.00     0.00  mem_config_calculate_mod_levels_arch
+  0.00      0.00     0.00        6     0.00     0.00  mem_config_check
+  0.00      0.00     0.00        6     0.00     0.00  mem_config_check_disjoint
+  0.00      0.00     0.00        6     0.00     0.00  mem_config_default
+  0.00      0.00     0.00        5     0.00     0.00  mem_create
+  0.00      0.00     0.00        5     0.00     0.00  mem_free
+  0.00      0.00     0.00        4     0.00     0.00  arch_for_each
+  0.00      0.00     0.00        4     0.00     0.00  hash_table_find_next
+  0.00      0.00     0.00        4     0.00     0.00  hash_table_insert
+  0.00      0.00     0.00        4     0.00     0.00  linked_list_find
+  0.00      0.00     0.00        4     0.00     0.00  str_single_spaces
+  0.00      0.00     0.00        3     0.00     0.00  config_read_string
+  0.00      0.00     0.00        3     0.00     0.00  config_section_first
+  0.00      0.00     0.00        3     0.00     0.00  esim_new_domain
+  0.00      0.00     0.00        3     0.00     0.00  hash_table_find_first
+  0.00      0.00     0.00        3     0.00     0.00  str_trim
+  0.00      0.00     0.00        2     0.00     0.00  config_read_int
+  0.00      0.00     0.00        2     0.00     0.00  evg_opencl_repo_add_object
+  0.00      0.00     0.00        2     0.00     0.00  evg_opencl_repo_new_object_id
+  0.00      0.00     0.00        2     0.00     0.00  evg_opencl_repo_remove_object
+  0.00      0.00     0.00        2     0.00     0.00  file_close
+  0.00      0.00     0.00        2     0.00     0.00  hash_table_create
+  0.00      0.00     0.00        2     0.00     0.00  hash_table_free
+  0.00      0.00     0.00        2     0.00     0.00  heap_error
+  0.00      0.00     0.00        2     0.00     0.00  heap_extract
+  0.00      0.00     0.00        2     0.00     0.00  linked_list_add
+  0.00      0.00     0.00        2     0.00     0.00  linked_list_count
+  0.00      0.00     0.00        2     0.00     0.00  linked_list_remove
+  0.00      0.00     0.00        2     0.00     0.00  repos_create
+  0.00      0.00     0.00        2     0.00     0.00  repos_free
+  0.00      0.00     0.00        2     0.00     0.00  trace_new_category
+  0.00      0.00     0.00        1     0.00     0.00  ARMEmuDestroy
+  0.00      0.00     0.00        1     0.00     0.00  ARMEmuRun
+  0.00      0.00     0.00        1     0.00     0.00  AsmCreate
+  0.00      0.00     0.00        1     0.00     0.00  AsmDestroy
+  0.00      0.00     0.00        1     0.00     0.00  EvgEmuDestroy
+  0.00      0.00     0.00        1     0.00     0.00  EvgEmuRun
+  0.00      0.00     0.00        1     0.00     0.00  FrmEmuDestroy
+  0.00      0.00     0.00        1     0.00     0.00  FrmEmuRun
+  0.00      0.00     0.00        1     0.00     0.00  MIPSEmuDestroy
+  0.00      0.00     0.00        1     0.00     0.00  MIPSEmuRun
+  0.00      0.00     0.00        1     0.00     0.00  SIEmuDestroy
+  0.00      0.00     0.00        1     0.00     0.00  SIEmuRun
+  0.00      0.00     0.00        1     0.00     0.00  X86AsmCreate
+  0.00      0.00     0.00        1     0.00     0.00  X86AsmDestroy
+  0.00      0.00     0.00        1     0.00     0.00  X86EmuDestroy
+  0.00      0.00     0.00        1     0.00     0.00  X86EmuRun
+  0.00      0.00     0.00        1     0.00     0.00  arch_get_sim_kind_detailed_count
+  0.00      0.00     0.00        1     0.00     0.00  arm_disasm_done
+  0.00      0.00     0.00        1     0.00     0.00  arm_disasm_init
+  0.00      0.00     0.00        1     0.00     0.00  arm_emu_done
+  0.00      0.00     0.00        1     0.00     0.00  arm_emu_init
+  0.00      0.00     0.00        1     0.00     0.00  arm_sys_done
+  0.00      0.00     0.00        1     0.00     0.00  arm_sys_init
+  0.00      0.00     0.00        1     0.00     0.00  arm_thumb16_disasm_init
+  0.00      0.00     0.00        1     0.00     0.00  arm_thumb32_disasm_init
+  0.00      0.00     0.00        1     0.00     0.00  config_check
+  0.00      0.00     0.00        1     0.00     0.00  config_create
+  0.00      0.00     0.00        1     0.00     0.00  config_free
+  0.00      0.00     0.00        1     0.00     0.00  config_read_bool
+  0.00      0.00     0.00        1     0.00     0.00  config_section_exists
+  0.00      0.00     0.00        1     0.00     0.00  esim_drain_heap
+  0.00      0.00     0.00        1     0.00     0.00  evg_disasm_done
+  0.00      0.00     0.00        1     0.00     0.00  evg_disasm_init
+  0.00      0.00     0.00        1     0.00     0.00  evg_emu_done
+  0.00      0.00     0.00        1     0.00     0.00  evg_emu_init
+  0.00      0.00     0.00        1     0.00     0.00  evg_isa_done
+  0.00      0.00     0.00        1     0.00     0.00  evg_isa_init
+  0.00      0.00     0.00        1     0.00     0.00  evg_opencl_device_create
+  0.00      0.00     0.00        1     0.00     0.00  evg_opencl_device_free
+  0.00      0.00     0.00        1     0.00     0.00  evg_opencl_platform_create
+  0.00      0.00     0.00        1     0.00     0.00  evg_opencl_platform_free
+  0.00      0.00     0.00        1     0.00     0.00  evg_opencl_repo_create
+  0.00      0.00     0.00        1     0.00     0.00  evg_opencl_repo_free
+  0.00      0.00     0.00        1     0.00     0.00  evg_opencl_repo_free_all_objects
+  0.00      0.00     0.00        1     0.00     0.00  file_open_for_write
+  0.00      0.00     0.00        1     0.00     0.00  frm_disasm_done
+  0.00      0.00     0.00        1     0.00     0.00  frm_disasm_init
+  0.00      0.00     0.00        1     0.00     0.00  frm_emu_done
+  0.00      0.00     0.00        1     0.00     0.00  frm_emu_init
+  0.00      0.00     0.00        1     0.00     0.00  frm_isa_done
+  0.00      0.00     0.00        1     0.00     0.00  frm_isa_init
+  0.00      0.00     0.00        1     0.00     0.00  heap_create
+  0.00      0.00     0.00        1     0.00     0.00  heap_free
+  0.00      0.00     0.00        1     0.00     0.00  linked_list_next
+  0.00      0.00     0.00        1     0.00     0.00  list_create_with_size
+  0.00      0.00     0.00        1     0.00     0.00  log_base2
+  0.00      0.00     0.00        1     0.00     0.00  m2s_timer_start
+  0.00      0.00     0.00        1     0.00     0.00  mem_config_create_switches
+  0.00      0.00     0.00        1     0.00     0.00  mem_config_read
+  0.00      0.00     0.00        1     0.00     0.00  mem_config_read_entries
+  0.00      0.00     0.00        1     0.00     0.00  mem_config_read_modules
+  0.00      0.00     0.00        1     0.00     0.00  mem_system_dump_report
+  0.00      0.00     0.00        1     0.00     0.00  mips_asm_done
+  0.00      0.00     0.00        1     0.00     0.00  mips_asm_init
+  0.00      0.00     0.00        1     0.00     0.00  mips_emu_done
+  0.00      0.00     0.00        1     0.00     0.00  mips_emu_init
+  0.00      0.00     0.00        1     0.00     0.00  mips_sys_done
+  0.00      0.00     0.00        1     0.00     0.00  mips_sys_init
+  0.00      0.00     0.00        1     0.00     0.00  mmu_dump_report
+  0.00      0.00     0.00        1     0.00     0.00  net_read_config
+  0.00      0.00     0.00        1     0.00     0.00  opencl_si_program_list_done
+  0.00      0.00     0.00        1     0.00     0.00  opengl_done
+  0.00      0.00     0.00        1     0.00     0.00  opengl_init
+  0.00      0.00     0.00        1     0.00     0.00  si_disasm_done
+  0.00      0.00     0.00        1     0.00     0.00  si_disasm_init
+  0.00      0.00     0.00        1     0.00     0.00  si_emu_done
+  0.00      0.00     0.00        1     0.00     0.00  si_emu_init
+  0.00      0.00     0.00        1     0.00     0.00  si_isa_done
+  0.00      0.00     0.00        1     0.00     0.00  si_isa_init
+  0.00      0.00     0.00        1     0.00     0.00  x86_asm_done
+  0.00      0.00     0.00        1     0.00     0.00  x86_asm_init
+  0.00      0.00     0.00        1     0.00     0.00  x86_emu_done
+  0.00      0.00     0.00        1     0.00     0.00  x86_emu_init
+  0.00      0.00     0.00        1     0.00     0.00  x86_uinst_done
+  0.00      0.00     0.00        1     0.00     0.00  x86_uinst_init
+
+ %         the percentage of the total running time of the
+time       program used by this function.
+
+cumulative a running sum of the number of seconds accounted
+ seconds   for by this function and those listed above it.
+
+ self      the number of seconds accounted for by this
+seconds    function alone.  This is the major sort for this
+           listing.
+
+calls      the number of times this function was invoked, if
+           this function is profiled, else blank.
+ 
+ self      the average number of milliseconds spent in this
+ms/call    function per call, if this function is profiled,
+	   else blank.
+
+ total     the average number of milliseconds spent in this
+ms/call    function and its descendents per call, if this 
+	   function is profiled, else blank.
+
+name       the name of the function.  This is the minor sort
+           for this listing. The index shows the location of
+	   the function in the gprof listing. If the index is
+	   in parenthesis it shows where it would appear in
+	   the gprof listing if it were to be printed.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+		     Call graph (explanation follows)
+
+
+granularity: each sample hit covers 2 byte(s) no time propagated
+
+index % time    self  children    called     name
+                0.00    0.00       1/208         x86_uinst_done [136]
+                0.00    0.00       1/208         FrmEmuRun [60]
+                0.00    0.00       1/208         mem_config_read_modules [113]
+                0.00    0.00       1/208         mem_config_create_switches [110]
+                0.00    0.00       1/208         mmu_done [4204]
+                0.00    0.00       2/208         mem_system_done [3553]
+                0.00    0.00       2/208         esim_init [2665]
+                0.00    0.00       2/208         debug_done [2572]
+                0.00    0.00       3/208         SIEmuRun [64]
+                0.00    0.00       3/208         esim_new_domain [35]
+                0.00    0.00       6/208         mem_config_read [111]
+                0.00    0.00       9/208         runtime_done [4408]
+                0.00    0.00      84/208         esim_register_event_with_name [4]
+                0.00    0.00      92/208         esim_done [2656]
+[1]      0.0    0.00    0.00     208         list_count [1]
+-----------------------------------------------
+                0.00    0.00       1/185         debug_done [2572]
+                0.00    0.00       2/185         esim_init [2665]
+                0.00    0.00       8/185         runtime_done [4408]
+                0.00    0.00      84/185         esim_register_event_with_name [4]
+                0.00    0.00      90/185         esim_done [2656]
+[2]      0.0    0.00    0.00     185         list_get [2]
+-----------------------------------------------
+                0.00    0.00       3/90          esim_new_domain [35]
+                0.00    0.00       3/90          esim_init [2665]
+                0.00    0.00      84/90          esim_register_event_with_name [4]
+[3]      0.0    0.00    0.00      90         list_add [3]
+                0.00    0.00       4/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       4/84          net_init [4303]
+                0.00    0.00      80/84          mem_system_init [3558]
+[4]      0.0    0.00    0.00      84         esim_register_event_with_name [4]
+                0.00    0.00      84/185         list_get [2]
+                0.00    0.00      84/208         list_count [1]
+                0.00    0.00      84/1053        __xcalloc [5884]
+                0.00    0.00      84/140         __xstrdup [5885]
+                0.00    0.00      84/90          list_add [3]
+-----------------------------------------------
+                0.00    0.00       1/27          config_free [80]
+                0.00    0.00       3/27          config_section_first [34]
+                0.00    0.00       6/27          mem_config_check_disjoint [24]
+                0.00    0.00       6/27          mem_config_calculate_mod_levels_arch [22]
+                0.00    0.00      11/27          evg_opencl_repo_free_all_objects [96]
+[5]      0.0    0.00    0.00      27         linked_list_head [5]
+-----------------------------------------------
+                0.00    0.00       1/25          config_free [80]
+                0.00    0.00       6/25          mem_config_check_disjoint [24]
+                0.00    0.00       6/25          mem_config_calculate_mod_levels_arch [22]
+                0.00    0.00      12/25          evg_opencl_repo_free_all_objects [96]
+[6]      0.0    0.00    0.00      25         linked_list_is_end [6]
+-----------------------------------------------
+                0.00    0.00       1/13          x86_uinst_init [137]
+                0.00    0.00       1/13          runtime_init [4410]
+                0.00    0.00       1/13          debug_init [2573]
+                0.00    0.00       2/13          si_emu_init [129]
+                0.00    0.00       2/13          mem_system_init [3558]
+                0.00    0.00       2/13          esim_init [2665]
+                0.00    0.00       4/13          frm_emu_init [101]
+[7]      0.0    0.00    0.00      13         list_create [7]
+                0.00    0.00      26/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/12          x86_emu_done [134]
+                0.00    0.00       1/12          SIEmuDestroy [63]
+                0.00    0.00       1/12          mmu_done [4204]
+                0.00    0.00       1/12          class_delete [15]
+                0.00    0.00       2/12          mem_system_done [3553]
+                0.00    0.00       2/12          esim_done [2656]
+                0.00    0.00       4/12          FrmEmuDestroy [59]
+[8]      0.0    0.00    0.00      12         list_free [8]
+-----------------------------------------------
+                0.00    0.00       1/11          x86_asm_init [133]
+                0.00    0.00       1/11          arm_emu_init [73]
+                0.00    0.00       1/11          evg_emu_init [87]
+                0.00    0.00       1/11          frm_emu_init [101]
+                0.00    0.00       1/11          mips_emu_init [118]
+                0.00    0.00       1/11          si_emu_init [129]
+                0.00    0.00       2/11          x86_emu_init [135]
+                0.00    0.00       3/11          X86CpuInit [329]
+[9]      0.0    0.00    0.00      11         class_init [9]
+-----------------------------------------------
+                0.00    0.00       1/11          x86_asm_init [133]
+                0.00    0.00       1/11          arm_emu_init [73]
+                0.00    0.00       1/11          evg_emu_init [87]
+                0.00    0.00       1/11          frm_emu_init [101]
+                0.00    0.00       1/11          mips_emu_init [118]
+                0.00    0.00       1/11          si_emu_init [129]
+                0.00    0.00       2/11          x86_emu_init [135]
+                0.00    0.00       3/11          X86CpuInit [329]
+[10]     0.0    0.00    0.00      11         class_register [10]
+-----------------------------------------------
+                0.00    0.00       1/10          config_section_exists [82]
+                0.00    0.00       9/10          config_read_string [33]
+[11]     0.0    0.00    0.00      10         hash_table_get [11]
+-----------------------------------------------
+                0.00    0.00       1/9           evg_opencl_repo_create [94]
+                0.00    0.00       1/9           esim_init [2665]
+                0.00    0.00       1/9           config_create [79]
+                0.00    0.00       6/9           arch_register [444]
+[12]     0.0    0.00    0.00       9         linked_list_create [12]
+-----------------------------------------------
+                0.00    0.00       1/9           evg_opencl_repo_free [95]
+                0.00    0.00       1/9           esim_done [2656]
+                0.00    0.00       1/9           config_free [80]
+                0.00    0.00       6/9           arch_done [437]
+[13]     0.0    0.00    0.00       9         linked_list_free [13]
+-----------------------------------------------
+                0.00    0.00       7/7           class_delete [15]
+[14]     0.0    0.00    0.00       7         ObjectDestroy [14]
+-----------------------------------------------
+                0.00    0.00       1/7           x86_emu_done [134]
+                0.00    0.00       1/7           mips_emu_done [117]
+                0.00    0.00       5/7           arch_done [437]
+[15]     0.0    0.00    0.00       7         class_delete [15]
+                0.00    0.00       7/7           ObjectDestroy [14]
+                0.00    0.00       6/6           m2s_timer_free [21]
+                0.00    0.00       6/6           EmuDestroy [19]
+                0.00    0.00       2/5           mem_free [27]
+                0.00    0.00       1/1           X86EmuDestroy [67]
+                0.00    0.00       1/1           AsmDestroy [56]
+                0.00    0.00       1/1           X86AsmDestroy [66]
+                0.00    0.00       1/12          list_free [8]
+                0.00    0.00       1/1           SIEmuDestroy [63]
+                0.00    0.00       1/1           MIPSEmuDestroy [61]
+                0.00    0.00       1/1           FrmEmuDestroy [59]
+                0.00    0.00       1/1           EvgEmuDestroy [57]
+                0.00    0.00       1/1           ARMEmuDestroy [53]
+-----------------------------------------------
+                0.00    0.00       1/7           x86_emu_init [135]
+                0.00    0.00       1/7           x86_asm_init [133]
+                0.00    0.00       1/7           arm_emu_init [73]
+                0.00    0.00       1/7           evg_emu_init [87]
+                0.00    0.00       1/7           frm_emu_init [101]
+                0.00    0.00       1/7           mips_emu_init [118]
+                0.00    0.00       1/7           si_emu_init [129]
+[16]     0.0    0.00    0.00       7         class_new [16]
+                0.00    0.00       7/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/7           esim_init [2665]
+                0.00    0.00       6/7           EmuCreate [18]
+[17]     0.0    0.00    0.00       7         m2s_timer_create [17]
+                0.00    0.00       7/1053        __xcalloc [5884]
+                0.00    0.00       7/140         __xstrdup [5885]
+-----------------------------------------------
+                0.00    0.00       1/6           x86_emu_init [135]
+                0.00    0.00       1/6           arm_emu_init [73]
+                0.00    0.00       1/6           evg_emu_init [87]
+                0.00    0.00       1/6           frm_emu_init [101]
+                0.00    0.00       1/6           mips_emu_init [118]
+                0.00    0.00       1/6           si_emu_init [129]
+[18]     0.0    0.00    0.00       6         EmuCreate [18]
+                0.00    0.00       6/140         __xstrdup [5885]
+                0.00    0.00       6/7           m2s_timer_create [17]
+-----------------------------------------------
+                0.00    0.00       6/6           class_delete [15]
+[19]     0.0    0.00    0.00       6         EmuDestroy [19]
+-----------------------------------------------
+                0.00    0.00       1/6           mem_config_read_modules [113]
+                0.00    0.00       1/6           mem_config_read_entries [112]
+                0.00    0.00       1/6           mem_config_read [111]
+                0.00    0.00       3/6           evg_opencl_repo_free_all_objects [96]
+[20]     0.0    0.00    0.00       6         linked_list_get [20]
+-----------------------------------------------
+                0.00    0.00       6/6           class_delete [15]
+[21]     0.0    0.00    0.00       6         m2s_timer_free [21]
+-----------------------------------------------
+                0.00    0.00       6/6           arch_for_each [28]
+[22]     0.0    0.00    0.00       6         mem_config_calculate_mod_levels_arch [22]
+                0.00    0.00       6/27          linked_list_head [5]
+                0.00    0.00       6/25          linked_list_is_end [6]
+-----------------------------------------------
+                0.00    0.00       6/6           arch_for_each [28]
+[23]     0.0    0.00    0.00       6         mem_config_check [23]
+-----------------------------------------------
+                0.00    0.00       6/6           arch_for_each [28]
+[24]     0.0    0.00    0.00       6         mem_config_check_disjoint [24]
+                0.00    0.00       6/27          linked_list_head [5]
+                0.00    0.00       6/25          linked_list_is_end [6]
+-----------------------------------------------
+                0.00    0.00       6/6           arch_for_each [28]
+[25]     0.0    0.00    0.00       6         mem_config_default [25]
+-----------------------------------------------
+                0.00    0.00       1/5           si_emu_init [129]
+                0.00    0.00       2/5           evg_emu_init [87]
+                0.00    0.00       2/5           frm_emu_init [101]
+[26]     0.0    0.00    0.00       5         mem_create [26]
+                0.00    0.00       5/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/5           EvgEmuDestroy [57]
+                0.00    0.00       1/5           FrmEmuDestroy [59]
+                0.00    0.00       1/5           SIEmuDestroy [63]
+                0.00    0.00       2/5           class_delete [15]
+[27]     0.0    0.00    0.00       5         mem_free [27]
+-----------------------------------------------
+                0.00    0.00       1/4           mem_config_read_entries [112]
+                0.00    0.00       3/4           mem_config_read [111]
+[28]     0.0    0.00    0.00       4         arch_for_each [28]
+                0.00    0.00       6/6           mem_config_calculate_mod_levels_arch [22]
+                0.00    0.00       6/6           mem_config_check_disjoint [24]
+                0.00    0.00       6/6           mem_config_check [23]
+                0.00    0.00       6/6           mem_config_default [25]
+-----------------------------------------------
+                0.00    0.00       4/4           config_check [78]
+[29]     0.0    0.00    0.00       4         hash_table_find_next [29]
+-----------------------------------------------
+                0.00    0.00       4/4           config_read_string [33]
+[30]     0.0    0.00    0.00       4         hash_table_insert [30]
+                0.00    0.00       4/1053        __xcalloc [5884]
+                0.00    0.00       4/140         __xstrdup [5885]
+-----------------------------------------------
+                0.00    0.00       2/4           evg_opencl_repo_add_object [39]
+                0.00    0.00       2/4           evg_opencl_repo_remove_object [41]
+[31]     0.0    0.00    0.00       4         linked_list_find [31]
+-----------------------------------------------
+                0.00    0.00       1/4           config_section_exists [82]
+                0.00    0.00       3/4           config_read_string [33]
+[32]     0.0    0.00    0.00       4         str_single_spaces [32]
+-----------------------------------------------
+                0.00    0.00       1/3           config_read_bool [81]
+                0.00    0.00       2/3           config_read_int [38]
+[33]     0.0    0.00    0.00       3         config_read_string [33]
+                0.00    0.00       9/10          hash_table_get [11]
+                0.00    0.00       4/4           hash_table_insert [30]
+                0.00    0.00       3/4           str_single_spaces [32]
+                0.00    0.00       3/3           str_trim [37]
+-----------------------------------------------
+                0.00    0.00       1/3           mem_config_read_modules [113]
+                0.00    0.00       1/3           mem_config_read_entries [112]
+                0.00    0.00       1/3           mem_config_read [111]
+[34]     0.0    0.00    0.00       3         config_section_first [34]
+                0.00    0.00       3/27          linked_list_head [5]
+-----------------------------------------------
+                0.00    0.00       1/3           net_read_config [122]
+                0.00    0.00       2/3           mem_config_read [111]
+[35]     0.0    0.00    0.00       3         esim_new_domain [35]
+                0.00    0.00       3/1053        __xcalloc [5884]
+                0.00    0.00       3/90          list_add [3]
+                0.00    0.00       3/208         list_count [1]
+-----------------------------------------------
+                0.00    0.00       1/3           config_free [80]
+                0.00    0.00       2/3           config_check [78]
+[36]     0.0    0.00    0.00       3         hash_table_find_first [36]
+-----------------------------------------------
+                0.00    0.00       3/3           config_read_string [33]
+[37]     0.0    0.00    0.00       3         str_trim [37]
+-----------------------------------------------
+                0.00    0.00       2/2           mem_config_read [111]
+[38]     0.0    0.00    0.00       2         config_read_int [38]
+                0.00    0.00       2/3           config_read_string [33]
+-----------------------------------------------
+                0.00    0.00       1/2           evg_opencl_platform_create [92]
+                0.00    0.00       1/2           evg_opencl_device_create [90]
+[39]     0.0    0.00    0.00       2         evg_opencl_repo_add_object [39]
+                0.00    0.00       2/4           linked_list_find [31]
+-----------------------------------------------
+                0.00    0.00       1/2           evg_opencl_platform_create [92]
+                0.00    0.00       1/2           evg_opencl_device_create [90]
+[40]     0.0    0.00    0.00       2         evg_opencl_repo_new_object_id [40]
+-----------------------------------------------
+                0.00    0.00       1/2           evg_opencl_platform_free [93]
+                0.00    0.00       1/2           evg_opencl_device_free [91]
+[41]     0.0    0.00    0.00       2         evg_opencl_repo_remove_object [41]
+                0.00    0.00       2/4           linked_list_find [31]
+-----------------------------------------------
+                0.00    0.00       2/2           net_done [4280]
+[42]     0.0    0.00    0.00       2         file_close [42]
+-----------------------------------------------
+                0.00    0.00       2/2           config_create [79]
+[43]     0.0    0.00    0.00       2         hash_table_create [43]
+                0.00    0.00       4/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       2/2           config_free [80]
+[44]     0.0    0.00    0.00       2         hash_table_free [44]
+-----------------------------------------------
+                0.00    0.00       2/2           esim_drain_heap [83]
+[45]     0.0    0.00    0.00       2         heap_error [45]
+-----------------------------------------------
+                0.00    0.00       2/2           esim_drain_heap [83]
+[46]     0.0    0.00    0.00       2         heap_extract [46]
+-----------------------------------------------
+                0.00    0.00       1/2           evg_opencl_platform_create [92]
+                0.00    0.00       1/2           evg_opencl_device_create [90]
+[47]     0.0    0.00    0.00       2         linked_list_add [47]
+                0.00    0.00       2/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/2           evg_opencl_repo_free_all_objects [96]
+                0.00    0.00       1/2           esim_process_all_events [2666]
+[48]     0.0    0.00    0.00       2         linked_list_count [48]
+-----------------------------------------------
+                0.00    0.00       1/2           evg_opencl_platform_free [93]
+                0.00    0.00       1/2           evg_opencl_device_free [91]
+[49]     0.0    0.00    0.00       2         linked_list_remove [49]
+-----------------------------------------------
+                0.00    0.00       1/2           evg_isa_init [89]
+                0.00    0.00       1/2           si_isa_init [131]
+[50]     0.0    0.00    0.00       2         repos_create [50]
+                0.00    0.00       2/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/2           evg_emu_done [86]
+                0.00    0.00       1/2           si_emu_done [128]
+[51]     0.0    0.00    0.00       2         repos_free [51]
+-----------------------------------------------
+                0.00    0.00       1/2           X86CpuInit [329]
+                0.00    0.00       1/2           mem_system_init [3558]
+[52]     0.0    0.00    0.00       2         trace_new_category [52]
+-----------------------------------------------
+                0.00    0.00       1/1           class_delete [15]
+[53]     0.0    0.00    0.00       1         ARMEmuDestroy [53]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_run [445]
+[54]     0.0    0.00    0.00       1         ARMEmuRun [54]
+-----------------------------------------------
+                0.00    0.00       1/1           X86AsmCreate [65]
+[55]     0.0    0.00    0.00       1         AsmCreate [55]
+-----------------------------------------------
+                0.00    0.00       1/1           class_delete [15]
+[56]     0.0    0.00    0.00       1         AsmDestroy [56]
+-----------------------------------------------
+                0.00    0.00       1/1           class_delete [15]
+[57]     0.0    0.00    0.00       1         EvgEmuDestroy [57]
+                0.00    0.00       1/1           evg_opencl_repo_free [95]
+                0.00    0.00       1/1           evg_opencl_repo_free_all_objects [96]
+                0.00    0.00       1/5           mem_free [27]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_run [445]
+[58]     0.0    0.00    0.00       1         EvgEmuRun [58]
+-----------------------------------------------
+                0.00    0.00       1/1           class_delete [15]
+[59]     0.0    0.00    0.00       1         FrmEmuDestroy [59]
+                0.00    0.00       4/12          list_free [8]
+                0.00    0.00       1/5           mem_free [27]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_run [445]
+[60]     0.0    0.00    0.00       1         FrmEmuRun [60]
+                0.00    0.00       1/208         list_count [1]
+-----------------------------------------------
+                0.00    0.00       1/1           class_delete [15]
+[61]     0.0    0.00    0.00       1         MIPSEmuDestroy [61]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_run [445]
+[62]     0.0    0.00    0.00       1         MIPSEmuRun [62]
+-----------------------------------------------
+                0.00    0.00       1/1           class_delete [15]
+[63]     0.0    0.00    0.00       1         SIEmuDestroy [63]
+                0.00    0.00       1/5           mem_free [27]
+                0.00    0.00       1/12          list_free [8]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_run [445]
+[64]     0.0    0.00    0.00       1         SIEmuRun [64]
+                0.00    0.00       3/208         list_count [1]
+-----------------------------------------------
+                0.00    0.00       1/1           x86_asm_init [133]
+[65]     0.0    0.00    0.00       1         X86AsmCreate [65]
+                0.00    0.00     741/1053        __xcalloc [5884]
+                0.00    0.00       1/1           AsmCreate [55]
+-----------------------------------------------
+                0.00    0.00       1/1           class_delete [15]
+[66]     0.0    0.00    0.00       1         X86AsmDestroy [66]
+-----------------------------------------------
+                0.00    0.00       1/1           class_delete [15]
+[67]     0.0    0.00    0.00       1         X86EmuDestroy [67]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_run [445]
+[68]     0.0    0.00    0.00       1         X86EmuRun [68]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_system_init [3558]
+[69]     0.0    0.00    0.00       1         arch_get_sim_kind_detailed_count [69]
+-----------------------------------------------
+                0.00    0.00       1/1           arm_emu_done [72]
+[70]     0.0    0.00    0.00       1         arm_disasm_done [70]
+-----------------------------------------------
+                0.00    0.00       1/1           arm_emu_init [73]
+[71]     0.0    0.00    0.00       1         arm_disasm_init [71]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_done [437]
+[72]     0.0    0.00    0.00       1         arm_emu_done [72]
+                0.00    0.00       1/1           arm_sys_done [74]
+                0.00    0.00       1/1           arm_disasm_done [70]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[73]     0.0    0.00    0.00       1         arm_emu_init [73]
+                0.00    0.00       1/11          class_init [9]
+                0.00    0.00       1/1           arm_disasm_init [71]
+                0.00    0.00       1/1           arm_sys_init [75]
+                0.00    0.00       1/11          class_register [10]
+                0.00    0.00       1/1           arm_thumb32_disasm_init [77]
+                0.00    0.00       1/1           arm_thumb16_disasm_init [76]
+                0.00    0.00       1/7           class_new [16]
+                0.00    0.00       1/6           EmuCreate [18]
+-----------------------------------------------
+                0.00    0.00       1/1           arm_emu_done [72]
+[74]     0.0    0.00    0.00       1         arm_sys_done [74]
+-----------------------------------------------
+                0.00    0.00       1/1           arm_emu_init [73]
+[75]     0.0    0.00    0.00       1         arm_sys_init [75]
+-----------------------------------------------
+                0.00    0.00       1/1           arm_emu_init [73]
+[76]     0.0    0.00    0.00       1         arm_thumb16_disasm_init [76]
+                0.00    0.00      20/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/1           arm_emu_init [73]
+[77]     0.0    0.00    0.00       1         arm_thumb32_disasm_init [77]
+                0.00    0.00      81/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_config_read [111]
+[78]     0.0    0.00    0.00       1         config_check [78]
+                0.00    0.00       4/4           hash_table_find_next [29]
+                0.00    0.00       2/3           hash_table_find_first [36]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_config_read [111]
+[79]     0.0    0.00    0.00       1         config_create [79]
+                0.00    0.00       2/1053        __xcalloc [5884]
+                0.00    0.00       2/2           hash_table_create [43]
+                0.00    0.00       1/140         __xstrdup [5885]
+                0.00    0.00       1/9           linked_list_create [12]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_config_read [111]
+[80]     0.0    0.00    0.00       1         config_free [80]
+                0.00    0.00       2/2           hash_table_free [44]
+                0.00    0.00       1/3           hash_table_find_first [36]
+                0.00    0.00       1/27          linked_list_head [5]
+                0.00    0.00       1/25          linked_list_is_end [6]
+                0.00    0.00       1/9           linked_list_free [13]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_config_read [111]
+[81]     0.0    0.00    0.00       1         config_read_bool [81]
+                0.00    0.00       1/3           config_read_string [33]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_config_read [111]
+[82]     0.0    0.00    0.00       1         config_section_exists [82]
+                0.00    0.00       1/4           str_single_spaces [32]
+                0.00    0.00       1/10          hash_table_get [11]
+-----------------------------------------------
+                0.00    0.00       1/1           esim_process_all_events [2666]
+[83]     0.0    0.00    0.00       1         esim_drain_heap [83]
+                0.00    0.00       2/2           heap_extract [46]
+                0.00    0.00       2/2           heap_error [45]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_emu_done [86]
+[84]     0.0    0.00    0.00       1         evg_disasm_done [84]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_emu_init [87]
+[85]     0.0    0.00    0.00       1         evg_disasm_init [85]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_done [437]
+[86]     0.0    0.00    0.00       1         evg_emu_done [86]
+                0.00    0.00       1/1           evg_disasm_done [84]
+                0.00    0.00       1/2           repos_free [51]
+                0.00    0.00       1/1           evg_isa_done [88]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[87]     0.0    0.00    0.00       1         evg_emu_init [87]
+                0.00    0.00       2/5           mem_create [26]
+                0.00    0.00       1/11          class_init [9]
+                0.00    0.00       1/11          class_register [10]
+                0.00    0.00       1/7           class_new [16]
+                0.00    0.00       1/6           EmuCreate [18]
+                0.00    0.00       1/1           evg_opencl_repo_create [94]
+                0.00    0.00       1/1           evg_opencl_platform_create [92]
+                0.00    0.00       1/1           evg_opencl_device_create [90]
+                0.00    0.00       1/1           evg_disasm_init [85]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_emu_done [86]
+[88]     0.0    0.00    0.00       1         evg_isa_done [88]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[89]     0.0    0.00    0.00       1         evg_isa_init [89]
+                0.00    0.00       1/1053        __xcalloc [5884]
+                0.00    0.00       1/2           repos_create [50]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_emu_init [87]
+[90]     0.0    0.00    0.00       1         evg_opencl_device_create [90]
+                0.00    0.00       1/1053        __xcalloc [5884]
+                0.00    0.00       1/2           evg_opencl_repo_new_object_id [40]
+                0.00    0.00       1/2           linked_list_add [47]
+                0.00    0.00       1/2           evg_opencl_repo_add_object [39]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_opencl_repo_free_all_objects [96]
+[91]     0.0    0.00    0.00       1         evg_opencl_device_free [91]
+                0.00    0.00       1/2           linked_list_remove [49]
+                0.00    0.00       1/2           evg_opencl_repo_remove_object [41]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_emu_init [87]
+[92]     0.0    0.00    0.00       1         evg_opencl_platform_create [92]
+                0.00    0.00       1/1053        __xcalloc [5884]
+                0.00    0.00       1/2           evg_opencl_repo_new_object_id [40]
+                0.00    0.00       1/2           linked_list_add [47]
+                0.00    0.00       1/2           evg_opencl_repo_add_object [39]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_opencl_repo_free_all_objects [96]
+[93]     0.0    0.00    0.00       1         evg_opencl_platform_free [93]
+                0.00    0.00       1/2           linked_list_remove [49]
+                0.00    0.00       1/2           evg_opencl_repo_remove_object [41]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_emu_init [87]
+[94]     0.0    0.00    0.00       1         evg_opencl_repo_create [94]
+                0.00    0.00       2/1053        __xcalloc [5884]
+                0.00    0.00       1/9           linked_list_create [12]
+-----------------------------------------------
+                0.00    0.00       1/1           EvgEmuDestroy [57]
+[95]     0.0    0.00    0.00       1         evg_opencl_repo_free [95]
+                0.00    0.00       1/9           linked_list_free [13]
+-----------------------------------------------
+                0.00    0.00       1/1           EvgEmuDestroy [57]
+[96]     0.0    0.00    0.00       1         evg_opencl_repo_free_all_objects [96]
+                0.00    0.00      12/25          linked_list_is_end [6]
+                0.00    0.00      11/27          linked_list_head [5]
+                0.00    0.00       3/6           linked_list_get [20]
+                0.00    0.00       1/1           linked_list_next [106]
+                0.00    0.00       1/2           linked_list_count [48]
+                0.00    0.00       1/1           evg_opencl_platform_free [93]
+                0.00    0.00       1/1           evg_opencl_device_free [91]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_system_dump_report [114]
+[97]     0.0    0.00    0.00       1         file_open_for_write [97]
+-----------------------------------------------
+                0.00    0.00       1/1           frm_emu_done [100]
+[98]     0.0    0.00    0.00       1         frm_disasm_done [98]
+-----------------------------------------------
+                0.00    0.00       1/1           frm_emu_init [101]
+[99]     0.0    0.00    0.00       1         frm_disasm_init [99]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_done [437]
+[100]    0.0    0.00    0.00       1         frm_emu_done [100]
+                0.00    0.00       1/1           frm_disasm_done [98]
+                0.00    0.00       1/1           frm_isa_done [102]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[101]    0.0    0.00    0.00       1         frm_emu_init [101]
+                0.00    0.00       4/13          list_create [7]
+                0.00    0.00       2/5           mem_create [26]
+                0.00    0.00       1/11          class_init [9]
+                0.00    0.00       1/11          class_register [10]
+                0.00    0.00       1/7           class_new [16]
+                0.00    0.00       1/6           EmuCreate [18]
+                0.00    0.00       1/1           frm_disasm_init [99]
+-----------------------------------------------
+                0.00    0.00       1/1           frm_emu_done [100]
+[102]    0.0    0.00    0.00       1         frm_isa_done [102]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[103]    0.0    0.00    0.00       1         frm_isa_init [103]
+                0.00    0.00       1/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/1           esim_init [2665]
+[104]    0.0    0.00    0.00       1         heap_create [104]
+                0.00    0.00       2/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/1           esim_done [2656]
+[105]    0.0    0.00    0.00       1         heap_free [105]
+-----------------------------------------------
+                0.00    0.00       1/1           evg_opencl_repo_free_all_objects [96]
+[106]    0.0    0.00    0.00       1         linked_list_next [106]
+-----------------------------------------------
+                0.00    0.00       1/1           mmu_init [4205]
+[107]    0.0    0.00    0.00       1         list_create_with_size [107]
+                0.00    0.00       2/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/1           mmu_init [4205]
+[108]    0.0    0.00    0.00       1         log_base2 [108]
+-----------------------------------------------
+                0.00    0.00       1/1           esim_init [2665]
+[109]    0.0    0.00    0.00       1         m2s_timer_start [109]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_config_read [111]
+[110]    0.0    0.00    0.00       1         mem_config_create_switches [110]
+                0.00    0.00       1/208         list_count [1]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_system_init [3558]
+[111]    0.0    0.00    0.00       1         mem_config_read [111]
+                0.00    0.00       6/208         list_count [1]
+                0.00    0.00       3/4           arch_for_each [28]
+                0.00    0.00       2/3           esim_new_domain [35]
+                0.00    0.00       2/2           config_read_int [38]
+                0.00    0.00       1/1           config_create [79]
+                0.00    0.00       1/1           config_read_bool [81]
+                0.00    0.00       1/6           linked_list_get [20]
+                0.00    0.00       1/3           config_section_first [34]
+                0.00    0.00       1/1           mem_config_read_modules [113]
+                0.00    0.00       1/1           mem_config_read_entries [112]
+                0.00    0.00       1/1           mem_config_create_switches [110]
+                0.00    0.00       1/1           config_section_exists [82]
+                0.00    0.00       1/1           config_free [80]
+                0.00    0.00       1/1           config_check [78]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_config_read [111]
+[112]    0.0    0.00    0.00       1         mem_config_read_entries [112]
+                0.00    0.00       1/6           linked_list_get [20]
+                0.00    0.00       1/3           config_section_first [34]
+                0.00    0.00       1/4           arch_for_each [28]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_config_read [111]
+[113]    0.0    0.00    0.00       1         mem_config_read_modules [113]
+                0.00    0.00       1/6           linked_list_get [20]
+                0.00    0.00       1/3           config_section_first [34]
+                0.00    0.00       1/208         list_count [1]
+-----------------------------------------------
+                0.00    0.00       1/1           mem_system_done [3553]
+[114]    0.0    0.00    0.00       1         mem_system_dump_report [114]
+                0.00    0.00       1/1           file_open_for_write [97]
+-----------------------------------------------
+                0.00    0.00       1/1           mips_emu_done [117]
+[115]    0.0    0.00    0.00       1         mips_asm_done [115]
+-----------------------------------------------
+                0.00    0.00       1/1           mips_emu_init [118]
+[116]    0.0    0.00    0.00       1         mips_asm_init [116]
+                0.00    0.00      24/1053        __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_done [437]
+[117]    0.0    0.00    0.00       1         mips_emu_done [117]
+                0.00    0.00       1/1           mips_asm_done [115]
+                0.00    0.00       1/7           class_delete [15]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[118]    0.0    0.00    0.00       1         mips_emu_init [118]
+                0.00    0.00       1/11          class_init [9]
+                0.00    0.00       1/1           mips_asm_init [116]
+                0.00    0.00       1/1           mips_sys_init [120]
+                0.00    0.00       1/11          class_register [10]
+                0.00    0.00       1/7           class_new [16]
+                0.00    0.00       1/6           EmuCreate [18]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_done [437]
+[119]    0.0    0.00    0.00       1         mips_sys_done [119]
+-----------------------------------------------
+                0.00    0.00       1/1           mips_emu_init [118]
+[120]    0.0    0.00    0.00       1         mips_sys_init [120]
+-----------------------------------------------
+                0.00    0.00       1/1           mmu_done [4204]
+[121]    0.0    0.00    0.00       1         mmu_dump_report [121]
+-----------------------------------------------
+                0.00    0.00       1/1           net_init [4303]
+[122]    0.0    0.00    0.00       1         net_read_config [122]
+                0.00    0.00       1/3           esim_new_domain [35]
+-----------------------------------------------
+                0.00    0.00       1/1           opencl_done [4363]
+[123]    0.0    0.00    0.00       1         opencl_si_program_list_done [123]
+-----------------------------------------------
+                0.00    0.00       1/1           x86_emu_done [134]
+[124]    0.0    0.00    0.00       1         opengl_done [124]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[125]    0.0    0.00    0.00       1         opengl_init [125]
+-----------------------------------------------
+                0.00    0.00       1/1           si_emu_done [128]
+[126]    0.0    0.00    0.00       1         si_disasm_done [126]
+-----------------------------------------------
+                0.00    0.00       1/1           si_emu_init [129]
+[127]    0.0    0.00    0.00       1         si_disasm_init [127]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_done [437]
+[128]    0.0    0.00    0.00       1         si_emu_done [128]
+                0.00    0.00       1/1           si_disasm_done [126]
+                0.00    0.00       1/2           repos_free [51]
+                0.00    0.00       1/1           si_isa_done [130]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[129]    0.0    0.00    0.00       1         si_emu_init [129]
+                0.00    0.00       2/13          list_create [7]
+                0.00    0.00       1/11          class_init [9]
+                0.00    0.00       1/11          class_register [10]
+                0.00    0.00       1/7           class_new [16]
+                0.00    0.00       1/6           EmuCreate [18]
+                0.00    0.00       1/5           mem_create [26]
+                0.00    0.00       1/1           si_disasm_init [127]
+-----------------------------------------------
+                0.00    0.00       1/1           si_emu_done [128]
+[130]    0.0    0.00    0.00       1         si_isa_done [130]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[131]    0.0    0.00    0.00       1         si_isa_init [131]
+                0.00    0.00       1/1053        __xcalloc [5884]
+                0.00    0.00       1/2           repos_create [50]
+-----------------------------------------------
+                0.00    0.00       1/1           x86_emu_done [134]
+[132]    0.0    0.00    0.00       1         x86_asm_done [132]
+-----------------------------------------------
+                0.00    0.00       1/1           x86_emu_init [135]
+[133]    0.0    0.00    0.00       1         x86_asm_init [133]
+                0.00    0.00       1/11          class_init [9]
+                0.00    0.00       1/7           class_new [16]
+                0.00    0.00       1/11          class_register [10]
+                0.00    0.00       1/1           X86AsmCreate [65]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_done [437]
+[134]    0.0    0.00    0.00       1         x86_emu_done [134]
+                0.00    0.00       1/1           opengl_done [124]
+                0.00    0.00       1/7           class_delete [15]
+                0.00    0.00       1/1           x86_asm_done [132]
+                0.00    0.00       1/12          list_free [8]
+                0.00    0.00       1/1           x86_uinst_done [136]
+-----------------------------------------------
+                0.00    0.00       1/1           arch_init [443]
+[135]    0.0    0.00    0.00       1         x86_emu_init [135]
+                0.00    0.00       2/11          class_init [9]
+                0.00    0.00       2/11          class_register [10]
+                0.00    0.00       1/7           class_new [16]
+                0.00    0.00       1/6           EmuCreate [18]
+                0.00    0.00       1/1           x86_asm_init [133]
+                0.00    0.00       1/1           x86_uinst_init [137]
+-----------------------------------------------
+                0.00    0.00       1/1           x86_emu_done [134]
+[136]    0.0    0.00    0.00       1         x86_uinst_done [136]
+                0.00    0.00       1/208         list_count [1]
+-----------------------------------------------
+                0.00    0.00       1/1           x86_emu_init [135]
+[137]    0.0    0.00    0.00       1         x86_uinst_init [137]
+                0.00    0.00       1/13          list_create [7]
+-----------------------------------------------
+                0.00    0.00       1/1053        evg_opencl_platform_create [92]
+                0.00    0.00       1/1053        evg_opencl_device_create [90]
+                0.00    0.00       1/1053        evg_isa_init [89]
+                0.00    0.00       1/1053        frm_isa_init [103]
+                0.00    0.00       1/1053        si_isa_init [131]
+                0.00    0.00       1/1053        mem_system_init [3558]
+                0.00    0.00       1/1053        mmu_init [4205]
+                0.00    0.00       1/1053        debug_init [2573]
+                0.00    0.00       2/1053        evg_opencl_repo_create [94]
+                0.00    0.00       2/1053        config_create [79]
+                0.00    0.00       2/1053        heap_create [104]
+                0.00    0.00       2/1053        list_create_with_size [107]
+                0.00    0.00       2/1053        linked_list_add [47]
+                0.00    0.00       2/1053        repos_create [50]
+                0.00    0.00       3/1053        esim_new_domain [35]
+                0.00    0.00       3/1053        esim_init [2665]
+                0.00    0.00       4/1053        hash_table_create [43]
+                0.00    0.00       4/1053        hash_table_insert [30]
+                0.00    0.00       4/1053        list_add [3]
+                0.00    0.00       5/1053        mem_create [26]
+                0.00    0.00       7/1053        class_new [16]
+                0.00    0.00       7/1053        m2s_timer_create [17]
+                0.00    0.00       8/1053        runtime_register [4412]
+                0.00    0.00      12/1053        arch_register [444]
+                0.00    0.00      20/1053        arm_thumb16_disasm_init [76]
+                0.00    0.00      24/1053        mips_asm_init [116]
+                0.00    0.00      26/1053        list_create [7]
+                0.00    0.00      81/1053        arm_thumb32_disasm_init [77]
+                0.00    0.00      84/1053        esim_register_event_with_name [4]
+                0.00    0.00     741/1053        X86AsmCreate [65]
+[5884]   0.0    0.00    0.00    1053         __xcalloc [5884]
+-----------------------------------------------
+                0.00    0.00       1/140         config_create [79]
+                0.00    0.00       2/140         esim_init [2665]
+                0.00    0.00       4/140         hash_table_insert [30]
+                0.00    0.00       6/140         EmuCreate [18]
+                0.00    0.00       7/140         m2s_timer_create [17]
+                0.00    0.00      12/140         arch_register [444]
+                0.00    0.00      24/140         runtime_register [4412]
+                0.00    0.00      84/140         esim_register_event_with_name [4]
+[5885]   0.0    0.00    0.00     140         __xstrdup [5885]
+-----------------------------------------------
+
+ This table describes the call tree of the program, and was sorted by
+ the total amount of time spent in each function and its children.
+
+ Each entry in this table consists of several lines.  The line with the
+ index number at the left hand margin lists the current function.
+ The lines above it list the functions that called this function,
+ and the lines below it list the functions this one called.
+ This line lists:
+     index	A unique number given to each element of the table.
+		Index numbers are sorted numerically.
+		The index number is printed next to every function name so
+		it is easier to look up where the function is in the table.
+
+     % time	This is the percentage of the `total' time that was spent
+		in this function and its children.  Note that due to
+		different viewpoints, functions excluded by options, etc,
+		these numbers will NOT add up to 100%.
+
+     self	This is the total amount of time spent in this function.
+
+     children	This is the total amount of time propagated into this
+		function by its children.
+
+     called	This is the number of times the function was called.
+		If the function called itself recursively, the number
+		only includes non-recursive calls, and is followed by
+		a `+' and the number of recursive calls.
+
+     name	The name of the current function.  The index number is
+		printed after it.  If the function is a member of a
+		cycle, the cycle number is printed between the
+		function's name and the index number.
+
+
+ For the function's parents, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the function into this parent.
+
+     children	This is the amount of time that was propagated from
+		the function's children into this parent.
+
+     called	This is the number of times this parent called the
+		function `/' the total number of times the function
+		was called.  Recursive calls to the function are not
+		included in the number after the `/'.
+
+     name	This is the name of the parent.  The parent's index
+		number is printed after it.  If the parent is a
+		member of a cycle, the cycle number is printed between
+		the name and the index number.
+
+ If the parents of the function cannot be determined, the word
+ `<spontaneous>' is printed in the `name' field, and all the other
+ fields are blank.
+
+ For the function's children, the fields have the following meanings:
+
+     self	This is the amount of time that was propagated directly
+		from the child into the function.
+
+     children	This is the amount of time that was propagated from the
+		child's children to the function.
+
+     called	This is the number of times the function called
+		this child `/' the total number of times the child
+		was called.  Recursive calls by the child are not
+		listed in the number after the `/'.
+
+     name	This is the name of the child.  The child's index
+		number is printed after it.  If the child is a
+		member of a cycle, the cycle number is printed
+		between the name and the index number.
+
+ If there are any cycles (circles) in the call graph, there is an
+ entry for the cycle-as-a-whole.  This entry shows who called the
+ cycle (as parents) and the members of the cycle (as children.)
+ The `+' recursive calls entry shows the number of function calls that
+ were internal to the cycle, and the calls entry for each member shows,
+ for that member, how many times it was called from other members of
+ the cycle.
+
+Copyright (C) 2012 Free Software Foundation, Inc.
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.
+
+Index by function name
+
+  [53] ARMEmuDestroy          [85] evg_disasm_init         [8] list_free
+  [54] ARMEmuRun              [86] evg_emu_done            [2] list_get
+  [55] AsmCreate              [87] evg_emu_init          [108] log_base2
+  [56] AsmDestroy             [88] evg_isa_done           [17] m2s_timer_create
+  [18] EmuCreate              [89] evg_isa_init           [21] m2s_timer_free
+  [19] EmuDestroy             [90] evg_opencl_device_create [109] m2s_timer_start
+  [57] EvgEmuDestroy          [91] evg_opencl_device_free [22] mem_config_calculate_mod_levels_arch
+  [58] EvgEmuRun              [92] evg_opencl_platform_create [23] mem_config_check
+  [59] FrmEmuDestroy          [93] evg_opencl_platform_free [24] mem_config_check_disjoint
+  [60] FrmEmuRun              [39] evg_opencl_repo_add_object [110] mem_config_create_switches
+  [61] MIPSEmuDestroy         [94] evg_opencl_repo_create [25] mem_config_default
+  [62] MIPSEmuRun             [95] evg_opencl_repo_free  [111] mem_config_read
+  [14] ObjectDestroy          [96] evg_opencl_repo_free_all_objects [112] mem_config_read_entries
+  [63] SIEmuDestroy           [40] evg_opencl_repo_new_object_id [113] mem_config_read_modules
+  [64] SIEmuRun               [41] evg_opencl_repo_remove_object [26] mem_create
+  [65] X86AsmCreate           [42] file_close             [27] mem_free
+  [66] X86AsmDestroy          [97] file_open_for_write   [114] mem_system_dump_report
+  [67] X86EmuDestroy          [98] frm_disasm_done       [115] mips_asm_done
+  [68] X86EmuRun              [99] frm_disasm_init       [116] mips_asm_init
+ [5884] __xcalloc            [100] frm_emu_done          [117] mips_emu_done
+ [5885] __xstrdup            [101] frm_emu_init          [118] mips_emu_init
+  [28] arch_for_each         [102] frm_isa_done          [119] mips_sys_done
+  [69] arch_get_sim_kind_detailed_count [103] frm_isa_init [120] mips_sys_init
+  [70] arm_disasm_done        [43] hash_table_create     [121] mmu_dump_report
+  [71] arm_disasm_init        [36] hash_table_find_first [122] net_read_config
+  [72] arm_emu_done           [29] hash_table_find_next  [123] opencl_si_program_list_done
+  [73] arm_emu_init           [44] hash_table_free       [124] opengl_done
+  [74] arm_sys_done           [11] hash_table_get        [125] opengl_init
+  [75] arm_sys_init           [30] hash_table_insert      [50] repos_create
+  [76] arm_thumb16_disasm_init [104] heap_create          [51] repos_free
+  [77] arm_thumb32_disasm_init [45] heap_error           [126] si_disasm_done
+  [15] class_delete           [46] heap_extract          [127] si_disasm_init
+   [9] class_init            [105] heap_free             [128] si_emu_done
+  [16] class_new              [47] linked_list_add       [129] si_emu_init
+  [10] class_register         [48] linked_list_count     [130] si_isa_done
+  [78] config_check           [12] linked_list_create    [131] si_isa_init
+  [79] config_create          [31] linked_list_find       [32] str_single_spaces
+  [80] config_free            [13] linked_list_free       [37] str_trim
+  [81] config_read_bool       [20] linked_list_get        [52] trace_new_category
+  [38] config_read_int         [5] linked_list_head      [132] x86_asm_done
+  [33] config_read_string      [6] linked_list_is_end    [133] x86_asm_init
+  [82] config_section_exists [106] linked_list_next      [134] x86_emu_done
+  [34] config_section_first   [49] linked_list_remove    [135] x86_emu_init
+  [83] esim_drain_heap         [3] list_add              [136] x86_uinst_done
+  [35] esim_new_domain         [1] list_count            [137] x86_uinst_init
+   [4] esim_register_event_with_name [7] list_create
+  [84] evg_disasm_done       [107] list_create_with_size
